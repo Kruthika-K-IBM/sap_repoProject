@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="LibPkgNoDependency">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">14-05-2025 15:20:34 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-14T15:20:42.961114283Z</value>
+  <value name="lastUpdated">2025-05-14T15:33:11.053444848Z</value>
   <value name="wmProjectId">fl9436636421221e078eca7f</value>
   <value name="creator">Team Adapters</value>
 </Values>

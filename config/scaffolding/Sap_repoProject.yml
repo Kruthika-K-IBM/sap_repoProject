@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/Kruthika-K-IBM
   gitUsername: Kruthika-K-IBM
   gitBranch: main
+- name: LibPkgNoDependency
+  gitServerName: k
+  gitUrl: https://github.com/RoopaSandeep-Desai-IBM
+  gitUsername: Kruthika-K-IBM
+  gitBranch: main

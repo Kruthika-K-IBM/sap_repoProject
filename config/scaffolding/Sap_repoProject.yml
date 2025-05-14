@@ -8,7 +8,19 @@ packages:
   gitUsername: Kruthika-K-IBM
   gitBranch: main
 - name: LibPkgNoDependency
+  version: "1.0"
   gitServerName: k
   gitUrl: https://github.com/RoopaSandeep-Desai-IBM
   gitUsername: Kruthika-K-IBM
   gitBranch: main
+services:
+- serviceName: project.sap_repo.integrations:z
+  packages:
+  - name: Sap_repoProject
+    version: "1.0"
+  - name: LibPkgNoDependency
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2057
